@@ -23,8 +23,9 @@ class MainWindow():
         window_root.geometry(self.window_size) # Set default window size.
         window_root.mainloop() # Main loop of the window.
 
-    def pylint_pleaser():
+    def pylint_pleaser(self):
         """
         This is to make pylint happy (A class needs two functions for it to be happy)
         """
         print("Happy now?")
+        

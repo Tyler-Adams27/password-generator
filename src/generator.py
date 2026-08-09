@@ -3,8 +3,9 @@ The password generator module
 """
 
 import random
+import tkinter as tk
 
-def generate(length):
+def generate(length, label):
     """
     Generator
     """
@@ -32,4 +33,7 @@ def generate(length):
             print(f"Index Error (List index out of range): {e}")
         except ValueError as e:
             print(f"Value Error (List might be empty): {e}")
-    return result
+    label["state"] = "normal"
+    label.delete(0, tk.END)
+    label.insert(0,result)
+    label["state"] = "readonly"

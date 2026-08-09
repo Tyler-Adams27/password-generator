@@ -33,6 +33,3 @@ def generate(length):
         except ValueError as e:
             print(f"Value Error (List might be empty): {e}")
     return result
-
-print(generate(12))
-

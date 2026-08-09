@@ -3,7 +3,7 @@
 A clean, modular Python desktop application that allows users to generate secure, randomized passwords with customizable lengths. Built with a focus on simplicity and ease of use.
 
 ## Features
-*   **Customizable Length:** Choose a password length between 8 and 20 characters.
+*   **Customizable Length:** Choose a password length between 8 and 16 characters.
 *   **Complex Character Mix:** Automatically generates a secure blend of:
     *   Uppercase letters
     *   Lowercase letters
